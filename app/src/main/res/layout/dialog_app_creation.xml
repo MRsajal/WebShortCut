@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose App Type"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select how you want to create your app:"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnShortcut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Shortcut (Quick)"
+        android:layout_marginBottom="8dp"
+        style="@style/Widget.Material3.Button.OutlinedButton" />
+
+    <Button
+        android:id="@+id/btnPWA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create PWA App (Advanced)"
+        android:layout_marginBottom="8dp"
+        style="@style/Widget.Material3.Button.OutlinedButton" />
+
+    <Button
+        android:id="@+id/btnCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Custom WebView App"
+        android:layout_marginBottom="16dp"
+        style="@style/Widget.Material3.Button.OutlinedButton" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        style="@style/Widget.Material3.Button.TextButton" />
+
+</LinearLayout>
